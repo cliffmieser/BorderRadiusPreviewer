@@ -4,7 +4,6 @@ let output = document.querySelector('.radius-output');
 let borderRadVals = [ 0, 0, 0, 0];
 
 const [a, b, c, d] = borderRadVals;
-console.log(borderRadVals);
 
 output.textContent = radius.value;
 
