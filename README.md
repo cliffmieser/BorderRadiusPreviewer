@@ -7,3 +7,8 @@
 
 #Bonues Features
 - User can change all 8 possible values of the `border-radius` in order to create a complex shape
+
+#packages used
+- ejs
+- express
+- nodemon 
