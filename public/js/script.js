@@ -1,9 +1,7 @@
 let box = document.getElementById('div-box'); //select the div tag
 let radius = document.querySelector('#radius'); //select the range input
 let output = document.querySelector('.radius-output');
-// let borderRadVals = [ 0, 0, 0, 0];
 
-// const [a, b, c, d] = borderRadVals;
 const borderSides = {
     a: 0,
     b: 0,
@@ -19,7 +17,6 @@ radius.addEventListener('input', () => {
     console.log(`output: ${output.textContent}`);
     setBorderRadius(a, b, c, d);
 })
-
 
 const setBorderRadius = (a, b, c, d) => {
     for(const side in borderSides){
