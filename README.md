@@ -2,7 +2,7 @@
 
 #To start in terminal
 - `node index.js`
-- `nodeman index.js`
+- `nodeman index.js`    
 
 #User Stories
 - User can see a box which has `border-raidus` property applied to it
