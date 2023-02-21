@@ -1,11 +1,11 @@
-.box{
+.main-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.box div{
+.main-container div{
     width: 100px;
     height: 100px;
     margin: 10px auto;
@@ -13,11 +13,11 @@
     border: 2px solid green;
 }
 
-.box input{
+.main-container input{
     padding-top: 50px;
 }
 
-.box div > p{ 
+.main-container div > p{ 
     text-align: center;
     line-height: 100px;
 }
