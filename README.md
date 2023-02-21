@@ -2,6 +2,7 @@
 
 #To start in terminal
 - `node index.js`
+    or
 - `nodeman index.js`    
 
 #User Stories
